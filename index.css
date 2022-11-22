@@ -1,0 +1,204 @@
+header {
+  padding: 20px 110px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--blue);
+}
+
+.logo {
+  width: 30px;
+}
+
+ul li {
+  display: inline;
+  padding: 0 10px;
+
+  color: var(--white);
+  font-family: "Tillana";
+  list-style-type: none;
+}
+
+.hero {
+  width: 100vw;
+  padding: 50px 110px 80px 110px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--blue);
+}
+
+article {
+  width: 300px;
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: var(--green);
+  font-family: "Tillana";
+  font-size: 30px;
+}
+
+p {
+  padding-bottom: 10px;
+
+  color: var(--white);
+  font-family: "Laila";
+  font-size: 14px;
+}
+
+button {
+  width: 90px;
+
+  color: var(--white);
+  font-family: "Laila";
+
+  background-color: var(--green);
+  border: none;
+}
+
+.placeholder {
+  width: 430px;
+  height: 180px;
+
+  background-color: var(--gray);
+}
+
+.gallery {
+  width: 100vw;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 150px;
+  margin: 50px 17px 12px 17px;
+}
+
+figcaption {
+  width: 100px;
+
+  text-align: center;
+}
+
+.quote {
+  width: 100vw;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray);
+}
+
+.quote__container {
+  width: 650px;
+}
+
+h2 {
+  padding-bottom: 10px;
+
+  font-family: "Laila";
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h3 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Laila";
+  font-size: 25px;
+}
+
+.action {
+  width: 100vw;
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action__container {
+  width: 850px;
+  height: 100px;
+
+  padding: 10px 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--green);
+}
+
+h4 {
+  color: var(--white);
+  font-family: "Laila";
+  font-size: 15px;
+}
+
+h5 {
+  color: var(--white);
+  font-family: "Laila";
+  font-size: 10px;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.button-2 {
+  border: solid 1px var(--white);
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--blue);
+}
+
+h6 {
+  color: var(--white);
+  font-family: "Laila";
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+}
