@@ -1,12 +1,12 @@
 header {
-  padding: 20px 110px;
+  padding: 40px 200px 20px 200px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 
 .logo {
@@ -18,20 +18,20 @@ ul li {
   padding: 0 10px;
 
   color: var(--white);
-  font-family: "Tillana";
+  font-family: "Niramit";
   list-style-type: none;
 }
 
 .hero {
   width: 100vw;
-  padding: 50px 110px 80px 110px;
+  padding: 50px 200px 80px 200px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 
 article {
@@ -44,8 +44,8 @@ article {
 }
 
 h1 {
-  color: var(--green);
-  font-family: "Tillana";
+  color: var(--gray);
+  font-family: "Laila";
   font-size: 30px;
 }
 
@@ -53,25 +53,21 @@ p {
   padding-bottom: 10px;
 
   color: var(--white);
-  font-family: "Laila";
+  font-family: "Niramit";
   font-size: 14px;
 }
 
 button {
-  width: 90px;
+  width: 85px;
+  height: 25px;
 
   color: var(--white);
-  font-family: "Laila";
+  font-family: "Niramit";
+  font-size: 12px;
 
-  background-color: var(--green);
+  background-color: var(--red);
   border: none;
-}
-
-.placeholder {
-  width: 430px;
-  height: 180px;
-
-  background-color: var(--gray);
+  border-radius: 3px;
 }
 
 .gallery {
@@ -101,11 +97,14 @@ button {
 .product {
   width: 150px;
   margin: 50px 17px 12px 17px;
+
+  border-radius: 3px;
 }
 
 figcaption {
-  width: 100px;
+  width: 130px;
 
+  font-family: "Niramit";
   text-align: center;
 }
 
@@ -142,7 +141,7 @@ h3 {
 
 .action {
   width: 100vw;
-  height: 180px;
+  height: 200px;
 
   display: flex;
   align-items: center;
@@ -160,19 +159,20 @@ h3 {
   justify-content: space-between;
   align-items: center;
 
-  background-color: var(--green);
+  border-radius: 3px;
+  background-color: var(--red);
 }
 
 h4 {
   color: var(--white);
-  font-family: "Laila";
-  font-size: 15px;
+  font-family: "Niramit";
+  font-size: 17px;
 }
 
 h5 {
   color: var(--white);
-  font-family: "Laila";
-  font-size: 10px;
+  font-family: "Niramit";
+  font-size: 12px;
 }
 
 a {
@@ -186,13 +186,13 @@ a {
 
 footer {
   width: 100vw;
-  height: 50px;
+  height: 60px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 
 h6 {
